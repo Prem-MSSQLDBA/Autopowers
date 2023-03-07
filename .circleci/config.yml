@@ -77,9 +77,10 @@ jobs:
           name: Front-end Scan
           command: |
             cd frontend
-            npm install    
+            npm install               
             npm audit fix --force --audit-level=critical   
             npm audit --audit-level=critical
+            npm audit fix 
   scan-backend:
     docker:
       - image: cimg/node:13.8.0
@@ -91,9 +92,10 @@ jobs:
           name: Back-end Scan
           command: |
             cd backend
-            npm install   
+            npm install              
             npm audit fix --force --audit-level=critical       
-            npm audit --audit-level=critical              
+            npm audit --audit-level=critical   
+            npm audit fix           
 
   
             
