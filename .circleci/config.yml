@@ -233,6 +233,7 @@ jobs:
             cd ./backend 
             touch migrationStatus.txt
             npm run migrations >> migrationStatus.txt
+            no_output_timeout: 30m
 
       - run:
           name: Send migration results to memstash
