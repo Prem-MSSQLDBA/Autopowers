@@ -1,0 +1,5 @@
+https://github.com/Prem-MSSQLDBA/Autopowers.git -Github
+http://udapeople-9346ddc.s3-website-us-east-1.amazonaws.com/#/employees - S3 URL 
+https://d1ufjfctqc5lm1.cloudfront.net/#/employees - Cloudfront URL 
+http://52.3.241.203:3030/api/status- Backend application Server
+http://ec2-54-160-43-254.compute-1.amazonaws.com:9090/ - Prometheus URL
